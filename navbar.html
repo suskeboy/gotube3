@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>gotube</title>
+	<style type="text/css">
+		
+
+	</style>
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js">
+		
+
+	</script>
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+
+
+
+
+	<style type="text/css">
+		
+		.main{
+			position: absolute;
+			width: 60%;
+			height: 100%;
+			background-color: brown;
+			color: black;
+
+			transform: translateX(-95%);
+			transition: transform 0.6s ease;
+			border-right-color: 4px solid black;
+			opacity: 0.9;
+
+		}
+
+		.choose{
+			position: absolute;
+			width: 100%;
+			height: 50%;
+			background-color: ;
+			color: black;
+
+			transform: translateX(100%);
+			transition: transform 2.6s ease;
+			border-right-color: 4px solid black;
+			opacity: 0.9;
+
+		}
+
+
+		
+		 .open{
+			transform: translateX(0%);
+
+
+		}
+
+		.fa{
+			color: black;
+			font-size: 20px;
+		}
+		li i{
+
+			margin-left: 97%;
+		}
+
+		ul li {
+			list-style-type: none;
+			text-decoration: none;
+			padding: 5px;
+			color: brown;
+			border-bottom: 1px solid white;
+		}
+
+		ul li a{
+			list-style-type: none;
+			text-decoration: none;
+			color: white;
+		}
+		.go{
+
+				float: right;
+				margin-right: 100px;
+				width: 20%;
+
+		}
+
+		ul i {
+
+		
+			padding: -20px;
+			
+		}
+
+		
+		
+
+
+	</style>
+</head>
+<body>
+
+
+
+			<i class="fa fa-bars toogle" style="margin: opx; padding: opx; color: brown;"></i>
+			<div class="main">
+				
+				<nav>
+					<ul>
+
+						
+						<li><a href="#">Biology Videos</a><a href="structure.html"><i class="fa fa-facebook" ></a></i></li>
+						<li><a href="#">Chemistry videos</a><i class="fa fa-desktop" ></i></li>
+						<li><a href="#">programing videos </a><i class="fa fa-laptop"></i></li>
+						<li><a href="#">Mathermatics videos</a><i class="fa fa-book"></i></li>
+						<li><a href="#">Biology Videos</a><i class="fa fa-mobile"></i></li>
+						<li><a href="#">Chemistry videos</a><i class="fa fa-table"></i></li>
+						<li><a href="#">programing videos </a><i class="fa fa-wifi"></i></li>
+						<li><a href="#">Mathermatics videos</a><i class="fa fa-car"></i></li>
+
+
+					</ul>
+				</nav>
+			</div>
+
+
+			<div class="go">
+				<a href="#" class="upload">upload</a>
+					<div class="choose">
+						
+						<input type="name" name="">
+						<br>
+						<input type="name" name="">
+						<br>
+						<input type="name" name="">
+						<br>
+						<input type="name" name="">
+						<br>
+						<input type="name" name="">
+						<br>
+						<input type="name" name="">
+						<br>
+						<a href="structure.html" >save</a>
+					</div>
+
+
+
+
+			</div>
+
+
+					
+			
+
+
+ 		<script type="text/javascript">
+ 			
+ 			$(document).ready(function(){
+
+ 				$(".toogle").click(function(){
+
+ 					$(".main").toggleClass('open');
+
+ 				});
+
+ 			});
+
+
+ 			$(document).ready(function(){
+
+ 				$(".upload").click(function(){
+
+ 				$(".choose").toggleClass('open');
+
+ 					
+ 				});
+
+ 			});
+
+
+
+
+ 			$(document).ready(function(){
+
+ 				$(".me").click(function(){
+
+ 					$(".main").toggleClass('open');
+
+ 				});
+
+ 			});
+
+
+ 			$(document).ready(function(){
+
+
+ 			});
+
+ 			//for the upload part
+
+ 			
+
+ 		</script>
+
+
+		
+</body>
+</html>
